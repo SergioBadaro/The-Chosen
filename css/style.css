@@ -484,7 +484,7 @@ footer {
   }
 
   .avaliacao img {
-    margin: 1rem auto;
+    margin: 0px;
   }
 
   .content-section {
@@ -502,5 +502,9 @@ footer {
   .right-content {
     flex: 1;
     padding: 0px;
+  }
+
+  footer {
+    padding: 5px;
   }
 }
