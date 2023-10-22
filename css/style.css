@@ -457,8 +457,12 @@ footer {
   }
 
   .footer-logo img {
-    margin-left: 8rem;
+    margin-left: 10rem;
     max-width: 130px;
+  }
+
+  .footer-logo p {
+    font-size: 14px;
   }
 
   .text {
@@ -492,7 +496,7 @@ footer {
   }
 
   .social-buttons {
-    margin-left: 6rem;
+    margin-left: 4rem;
   }
 
   .right-content {
