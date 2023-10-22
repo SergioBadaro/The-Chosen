@@ -447,7 +447,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 480px) {
   .photo {
     width: 380px;
   }
@@ -462,7 +462,7 @@ footer {
   }
 
   .text {
-    padding: 0px;
+    padding: 5px;
   }
 
   .footer-social-icons h1 {
@@ -492,6 +492,6 @@ footer {
   }
 
   .social-buttons {
-    margin-left: 8rem;
+    margin-left: 6rem;
   }
 }
