@@ -396,7 +396,7 @@ footer {
   color: #1da1f2;
 }
 
-.footer-social-icons h1 {
+.footer-social-icons h2 {
   color: rgb(36, 177, 177);
   letter-spacing: 2px;
 }
@@ -449,7 +449,7 @@ footer {
 
 @media screen and (max-width: 480px) {
   .photo {
-    width: 380px;
+    width: 370px;
   }
 
   .left-content {
@@ -457,7 +457,7 @@ footer {
   }
 
   .footer-logo img {
-    margin-left: 10rem;
+    margin-left: 8rem;
     max-width: 130px;
   }
 
@@ -465,7 +465,7 @@ footer {
     padding: 5px;
   }
 
-  .footer-social-icons h1 {
+  .footer-social-icons h2 {
     margin: 0rem;
     letter-spacing: 0rem;
   }
@@ -493,5 +493,10 @@ footer {
 
   .social-buttons {
     margin-left: 6rem;
+  }
+
+  .right-content {
+    flex: 1;
+    padding: 0px;
   }
 }
