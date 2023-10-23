@@ -9,6 +9,7 @@
 h1,
 h2 {
   font-size: 24px;
+  font-weight: 500;
   margin: 2rem auto;
 }
 
@@ -16,10 +17,12 @@ h3 {
   text-align: left;
   font-size: 22px;
   margin: 2rem 0;
+  font-weight: 500;
 }
 
 p {
   font-size: 20px;
+  font-weight: 100;
   letter-spacing: 1px;
   text-align: left;
 }
@@ -53,6 +56,10 @@ td {
 
 .footer-social-icons h1 {
   font-size: 32px;
+}
+
+.footer-social-icons h2 {
+  font-weight: 300;
 }
 
 @media screen and (max-width: 768px) {
