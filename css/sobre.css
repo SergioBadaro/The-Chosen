@@ -93,7 +93,7 @@ td {
   }
   .secao-sobre {
     width: 100%;
-    padding: 14px;
+    padding: 18px;
   }
 
   h1,
@@ -105,12 +105,12 @@ td {
 
   table {
     width: 100%;
-    font-size: 16px;
+    font-size: 12px;
   }
 
   th,
   td {
-    padding: 6px;
+    padding: 4px;
   }
 
   .footer-social-icons a {
