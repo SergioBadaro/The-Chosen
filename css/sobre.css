@@ -1,9 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  scroll-behavior: smooth;
+}
+
+
 .secao-sobre {
   text-align: center;
   margin: 0 auto;
   width: 70%;
   padding: 20px;
   border: 1px solid #ccc;
+}
+
+/* Wrapper para permitir scroll horizontal em telas pequenas */
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* scroll suave em iOS */
 }
 
 h1,
@@ -50,6 +68,7 @@ th,
 td {
   padding: 10px;
   text-align: center;
+  word-wrap: break-word; /* para quebrar palavras longas */
 }
 
 #win {
@@ -81,16 +100,16 @@ td {
   h3 {
     font-size: 20px;
     text-align: center;
-}
+  }
 
-table {
+  table {
     width: 100%;
     font-size: 16px;
   }
 
   th,
   td {
-    padding: 8px;
+    padding: 6px;
   }
 
   .footer-social-icons a {
@@ -101,5 +120,4 @@ table {
   .footer-social-icons h2 {
     font-size: 16px;
   }
-
 }
