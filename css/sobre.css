@@ -27,6 +27,12 @@ p {
   text-align: left;
 }
 
+#destak {
+  color: rgb(36, 177, 177);
+  font-weight: 500;
+  font-size: 22px;
+}
+
 /* estilização da tabela */
 
 table {
@@ -69,4 +75,11 @@ td {
   .secao-sobre {
     width: 100%;
   }
+
+  h1,
+  h2,
+  h3 {
+    font-size: 20px;
+    text-align: center;
+}
 }

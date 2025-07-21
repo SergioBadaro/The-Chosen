@@ -13,11 +13,13 @@
   width: 300px;
   display: inline-block;
   text-align: center;
+  border: 1px solid rgb(36, 177, 177);;
 }
 
 .profile-card h2 {
   margin-bottom: 5px;
   font-weight: 500;
+  color: rgb(36, 177, 177);
 }
 
 .footer-social-icons h2 {
