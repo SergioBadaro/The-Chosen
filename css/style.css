@@ -484,8 +484,14 @@ footer {
 
   .photo {
     width: 100%;
-    max-width: 370px;
+    max-width: 500px;
     height: auto;
+  }
+
+  .section {
+    margin: 0 6px; /* margem lateral reduzida */
+    display: flex;
+    flex-direction: column;
   }
 
   .footer-logo img {
