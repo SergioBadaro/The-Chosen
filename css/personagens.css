@@ -32,6 +32,7 @@
   border-radius: 50%;
   object-fit: cover;
   margin: 10px auto;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
@@ -42,4 +43,42 @@
   .cards .profile-card {
     margin: 1.5rem;
   }
+}
+
+/* Modal */
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 999;
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  max-width: 80%;
+  max-height: 80vh;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #000;
+}
+
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.close-btn:hover {
+  color: #ccc;
 }

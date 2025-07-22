@@ -55,7 +55,7 @@
             <p>"The Chosen" tem sido elogiada por sua produção de alta qualidade, atuações sólidas e capacidade de cativar tanto o público religioso quanto o secular. A série tem várias temporadas planejadas e tem sido uma influência significativa na narrativa contemporânea relacionada à vida de <em>Jesus</em>.</p>
         </div>
         <div class="image">
-            <img src="img/banner-ceia.png" alt="Cena da Ultima Ceia">
+            <img src="img/banner-ceia.png" alt="Cena da Ultima Ceia" onclick="openModal(this)">
             <p class="image-caption">Jesus reúne os discípulos para a última Ceia</p>
         </div>
     </section>
@@ -162,6 +162,12 @@
                 <a href="https://www.tiktok.com/@thechosentvbr" target="_blank"><i class="fab fa-tiktok fa-lg" id="tiktok"></i></a>
                 <a href="https://twitter.com/thechosentvbr" target="_blank"><i class="fab fa-x-twitter fa-lg" id="twitter"></i></a>
             </div>
+
+             <!-- Modal para imagem ampliada -->
+                        <div id="imageModal" class="modal">
+                        <span class="close-btn" onclick="closeModal()">&times;</span>
+                        <img class="modal-content" id="modalImage" alt="">
+                        </div>
 
             <a id="scroll-to-top" href="#">↑</a>
         </footer>

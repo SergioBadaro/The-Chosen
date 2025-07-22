@@ -122,3 +122,29 @@ td {
     font-size: 16px;
   }
 }
+
+.img-historia-padrao {
+  text-align: center;
+  margin: 20px 0;
+  padding-top: 2rem;
+}
+
+.img-historia-padrao img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.img-historia-padrao img:hover {
+  transform: scale(1.02);
+}
+
+.legenda {
+  font-size: 14px;
+  color: #555;
+  margin-top: 8px;
+  font-style: italic;
+}
