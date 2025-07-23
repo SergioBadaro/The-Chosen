@@ -7,7 +7,7 @@
   margin: 3rem 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 420px) and (max-width: 1024px) {
   .menu-toggle {
     display: flex;
   }
@@ -17,6 +17,27 @@
   }
 }
 
-.footer-social-icons h2 {
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* altura mínima da tela */
+}
+
+.main-content {
+  flex: 1;  /* ocupa todo espaço disponível empurrando o footer para baixo */
+}
+
+/* footer fica normal */
+footer {
+  .footer-social-icons h2 {
   font-weight: 300;
+}
 }
