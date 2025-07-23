@@ -148,3 +148,33 @@ td {
   margin-top: 8px;
   font-style: italic;
 }
+
+
+/* Contêiner responsivo para o iframe */
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 0.5rem;
+            
+        }
+
+        .video-container iframe {
+            position: absolute;
+            padding: 2rem;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+            border-radius: 0.5rem; 
+        }
+
+        
+        @media (max-width: 520px) {
+            .video-container {
+                max-width: 100%;
+            }
+        }
