@@ -21,7 +21,7 @@
 
 .titulo-devocional h1 {
   font-size: 2.5rem;
-  color: #1d4ed8;
+  color: rgb(36, 177, 177);
   margin-bottom: 10px;
 }
 
@@ -45,12 +45,12 @@
 }
 
 .card:hover {
-  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 22px rgba(0,0,0,0.15);
 }
 
 .card h2 {
   font-size: 1.2rem;
-  color: #1d4ed8;
+  color: rgb(36, 177, 177);
   margin-bottom: 8px;
 }
 
@@ -61,7 +61,7 @@
 
 .card .temporada {
   font-size: 0.75rem;
-  color: #2563eb;
+  color: rgb(36, 177, 177);
   margin-top: 8px;
   font-weight: bold;
 }
@@ -74,52 +74,49 @@
   font-style: italic;
 }
 
-  /* Responsividade
-    @media (max-width: 768px) {
-      .cabeca {
-        flex-direction: column;
-        align-items: flex-start;
-      }
+ .devocional {
+  padding: 2rem;
+  background-color: #f7f9fc;
+  text-align: center;
+}
 
-      nav ul {
-        flex-direction: column;
-        gap: 10px;
-        margin-top: 10px;
-      }
+.devocional h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
 
-      .footer {
-        flex-direction: column;
-        align-items: flex-start;
-      }
+.devocional-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
 
-      .footer-social-icons {
-        flex-direction: row;
-        flex-wrap: wrap;
-      }
+.devocional-card {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  max-width: 320px;
+  flex: 1 1 300px;
+  text-align: left;
+}
 
-      .footer-social-icons h2 {
-        width: 100%;
-      }
-    }
+.devocional-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
 
-    @media (max-width: 480px) {
-      .footer-logo img {
-        width: 100px;
-      }
+.devocional-card p {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
 
-      .footer-logo p {
-        font-size: 13px;
-      }
-
-      .footer-social-icons a {
-        font-size: 20px;
-      }
-
-      nav ul li a {
-        font-size: 14px;
-      }
-
-      .logo img {
-        width: 130px;
-      }
-    } */
+.versiculo-biblico {
+  font-style: italic;
+  color: #333;
+  background: #eef;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
