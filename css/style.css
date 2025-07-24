@@ -381,7 +381,7 @@ footer {
 }
 
 .footer-logo img {
-  max-width: 150px;
+  max-width: 100px;
   display: block;
   margin-left: auto;  /* Centralizar melhor em telas pequenas */
   margin-right: auto;
