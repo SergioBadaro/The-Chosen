@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal - The Chosen</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/quiz.css">
-    <link rel="icon" href="img/jeeeesus.ico" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/afe770c112.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal - The Chosen</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/devocional.css">
+  <link rel="icon" href="img/jeeeesus.ico" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/afe770c112.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
   <div class="container">
 
+    <!-- Cabeçalho -->
     <header class="cabeca">
       <div class="logo">
         <a href="index.html"><img src="img/logo.png" alt="Logo The Chosen"></a>  
@@ -33,23 +35,24 @@
       </nav>
     </header>
 
-    <main class="conteudo-principal">
-      <section id="quiz">
-        <h2>Quiz: Quanto você sabe sobre The Chosen?</h2>
-        <div id="quiz-container">
-          <p id="question"></p>
-          <div id="answers"></div>
-          <button id="next-btn" disabled>Próxima</button>
-        </div>
-        <p id="score"></p>
+    <!-- Seção de Devocionais -->
+    <main class="devocional-principal">
+      <section class="titulo-devocional">
+        <h1>Reflexões e Devocionais</h1>
+        <p>Baseados nos episódios de todas as temporadas de <strong>The Chosen</strong></p>
+      </section>
+
+      <section class="devocional-grid" id="devocionais">
+        <!-- Cards serão adicionados via JavaScript -->
       </section>
     </main>
 
+    <!-- Rodapé -->
     <footer class="footer">
       <div class="footer-logo">
         <img src="img/logo-dark.png" alt="Logo The Chosen">
         <p>The Chosen é a primeira série de TV multi-temporada sobre a vida de Jesus, <br>
-           permite ver a Jesus através dos olhos daqueles que O conheceram.</p>
+          permite ver a Jesus através dos olhos daqueles que O conheceram.</p>
       </div>
       <div class="footer-social-icons">
         <h2>Mantenha-se Conectado</h2>
@@ -64,8 +67,8 @@
 
   </div>
 
+  <!-- Scripts -->
   <script src="js/script.js"></script>
-  <script src="js/quiz.js"></script>
+  <script src="js/devocional.js"></script>
 </body>
-
 </html>
